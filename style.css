@@ -279,15 +279,17 @@ body{
 .more-info{
     margin: 50px;
     width: 25%;
-    
+   
     display: inline-flex;
     flex-direction: column;
-    border: 5px solid black;
+    
     align-items: center;
     text-align: center;
     
 }
+.skateboarding{
 
+}
     
 
 .more-about-me h2{
@@ -313,21 +315,48 @@ body{
 .display-info{
     display: inline-flex;
     justify-content: center;
+    width: 100%;
 }
 @media (max-width:612px){
-   .more-about-me h4{
-    font-size: 1.5rem;
-   }
-   
 }
+
 @media (max-width:420px){
+    .more-about-me h2{
+        font-size: 2rem;
+    }
+    .more-about-me h4{
+        font-size: 1.5rem;
+    }
+}
+
     
     
+@media (max-width:924px){
+    .display-info{
+        display: inline-flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .more-info{
+        width: 50%;
+        margin: 10%;
+    }
 }
 
 
-
-
+@media (max-width:410px){
+   .title{
+    font-size: 6rem;
+   }
+}
+@media (max-width:344px){
+   .title{
+    font-size: 5rem;
+   }
+}
 
 
 
